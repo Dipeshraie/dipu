@@ -1,0 +1,27 @@
+package allinone;
+
+import java.util.Scanner;
+
+public class App {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner (System.in);
+		char ch;
+do {
+		System.out.println("....main menu.....");
+		System.out.println("1.Add product");
+		System.out.println("2.View a product");
+		System.out.println("3.View all product");
+		System.out.println("4.Update aproduct");
+		System.out.println("5.Delete a Product");
+		do {
+			System.out.println("Choice:");
+			ch=sc.next().charAt(0);
+		}while(!(Integer.parseInt(ch+"")<6 && Integer.parseInt(ch+"")>0));
+		do {
+			System.out.println("Do you want to continue y/n?");
+			ch=sc.next().charAt(0);
+		}while(!(ch=='y'||ch=='n'));
+}while(ch=='y');
+	}
+
+}

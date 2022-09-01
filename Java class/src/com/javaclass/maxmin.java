@@ -1,0 +1,26 @@
+package com.javaclass;
+
+public class maxmin {
+	public static void main(String []args) {
+		int num[]= {7,5,6,9,2};
+		int i,min,max;
+		min=num[0];
+		max=num[0];
+		for(i=0;i<5;i++) {
+			if(min>num[i]) {
+				min=num[i];
+			
+			}
+			if (max<num[i]) {
+				max=num[i];
+				
+			}
+			
+			
+		}
+		System.out.println("the minimum  number is:"+min );
+		System.out.println("the maximum  number is:"+max );
+	}
+	
+
+}

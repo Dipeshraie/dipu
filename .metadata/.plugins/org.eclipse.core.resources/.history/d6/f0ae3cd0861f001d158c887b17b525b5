@@ -1,0 +1,30 @@
+package selfproect;
+
+	class Student{
+		String name;
+		int age;
+		int phonenumber;
+		public void printinfo() {
+			System.out.println(this.name);
+			System.out.println(this.age);
+			System.out.println(this.phonenumber);
+		}
+		Student(){
+			System.out.println("constructor called");
+		}
+		
+		
+	}
+
+public class oops {
+	public static void main(String[] args) {
+		Student s=new Student();
+		s.name="dipesh";
+		s.age=24;
+		s.phonenumber=9;
+		s.printinfo();
+		
+		
+	}
+	
+}

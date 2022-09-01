@@ -1,0 +1,5 @@
+package allinone;
+
+public abstract class AbstractDao<T> implements DataAccessObject<T> {
+
+}

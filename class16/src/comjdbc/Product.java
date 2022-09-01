@@ -1,0 +1,25 @@
+package comjdbc;
+
+public class Product{
+	int id;
+	String name;
+	String manufacturer;
+	String  descripion;
+	float price;
+	boolean instock;
+	
+	
+public class Product (int id,String name,String manufacturer,String description,float price, boolean insock);
+
+	super();
+    this.id=id;
+	this.name=name;
+	this.manufacturer= manufacturer;
+	this.description= description;
+	this.price= price;
+	this.instock= instock;
+	
+	
+	
+
+}

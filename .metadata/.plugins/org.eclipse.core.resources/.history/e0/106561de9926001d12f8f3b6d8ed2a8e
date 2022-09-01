@@ -1,0 +1,29 @@
+package allinone;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+public abstract class AbstractDao<T> implements DataAccessObject<T> {
+	String driver;
+	String url;
+	String user;
+	String pass;
+	Connection con;
+	@Override
+	public void connect() throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		con.close();
+		
+	}
+	
+	
+	@Override
+	public void disconnect() throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		con.close();
+		
+	}
+	
+	
+
+}

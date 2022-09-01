@@ -1,0 +1,14 @@
+package comjdbc;
+
+public class Product {
+	int id;
+	String name;
+	String manufacurer;
+	String description;
+	float price;
+	boolean insock;
+	
+	
+	
+
+}

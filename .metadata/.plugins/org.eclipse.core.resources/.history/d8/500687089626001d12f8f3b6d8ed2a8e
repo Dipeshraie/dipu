@@ -1,0 +1,10 @@
+package allinone;
+
+public interface DataAccessObject<T> {
+	public void connect();
+	public void disconnect();
+	public int save(T t);
+	public 
+	
+
+}

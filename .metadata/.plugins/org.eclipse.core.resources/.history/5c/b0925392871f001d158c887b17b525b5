@@ -1,0 +1,29 @@
+package selfproect;
+
+	class Student{
+		String name;
+		int age;
+		int phonenumber;
+		public void printinfo() {
+			System.out.println(this.name);
+			System.out.println(this.age);
+			System.out.println(this.phonenumber);
+		}
+		Student(String name,int age){
+			this.name=name;
+			this.age=age;
+		}
+		
+		
+	}
+
+public class oops {
+	public static void main(String[] args) {
+		Student s=new Student("dipesh",21);
+		
+		s.printinfo();
+		
+		
+	}
+	
+}

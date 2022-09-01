@@ -1,0 +1,5 @@
+package allinone;
+
+public class ProductDao extends AbstractDao<Product> {
+
+}
